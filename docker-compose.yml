@@ -4,6 +4,6 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    image: 'appbuild'
+    image: 'app-name'
     ports:
-      - 8080:80
+      - 8888:80
